@@ -7,3 +7,5 @@ The project will specifically assess whether AutoGluon can enable non-technical 
 
 By providing clear, empirical data on how well AutoGluon and other algorithms meet the needs of non-technical users, this research will guide organizations and individuals in selecting the most appropriate ML tools for their needs, potentially democratizing the use of machine learning technology.
 
+![Notebook Preview](screenshot1.png)
+
