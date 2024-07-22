@@ -7,7 +7,7 @@ The project will specifically assess whether AutoGluon can enable non-technical 
 
 By providing clear, empirical data on how well AutoGluon and other algorithms meet the needs of non-technical users, this research will guide organizations and individuals in selecting the most appropriate ML tools for their needs, potentially democratizing the use of machine learning technology.
 
-The notebook used to complete this research can be found here. Below you will find the notebook highlights as well as a summary of findings.
+The notebook used to complete this research can be found [here](https://github.com/jdonahue94/autogluon_or_off/blob/main/research.ipynb). Below you will find the notebook highlights as well as a summary of findings.
 
 ![Notebook Preview](screenshot1.png)
 ![Notebook Preview](screenshot2.png)
