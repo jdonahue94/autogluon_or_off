@@ -7,6 +7,13 @@ The project will specifically assess whether AutoGluon can enable non-technical 
 
 By providing clear, empirical data on how well AutoGluon and other algorithms meet the needs of non-technical users, this research will guide organizations and individuals in selecting the most appropriate ML tools for their needs, potentially democratizing the use of machine learning technology.
 
+The notebook used to complete this research can be found here. Below you will find the notebook highlights as well as a summary of findings.
+
 ![Notebook Preview](screenshot1.png)
 ![Notebook Preview](screenshot2.png)
 ![Notebook Preview](screenshot3.png)
+
+### Model Performance
+* XGBoost Default: Achieved an accuracy of 86.37%, which is competitive considering no parameter tuning was applied.
+* XGBoost Hypertuned: Slight improvement with tuned parameters, reaching an accuracy of 86.67%. This reflects the benefits of optimizing model parameters.
+* AutoGluon: Very close to hypertuned XGBoost with an accuracy of 86.54%, demonstrating strong performance with default settings.
