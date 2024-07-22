@@ -40,8 +40,10 @@ The notebook used to complete this research can be found here. Below you will fi
 **Model Selection Based on Use Case:**
 * Rapid Deployment: For scenarios requiring quick model deployment and less hands-on tuning, AutoGluon proves to be highly effective. It automates much of the model selection and tuning process, making it ideal for users who need good performance without deep technical expertise in machine learning.
 * Performance Optimization: If the highest possible accuracy or specific model behavior is crucial, investing time in understanding and hypertuning XGBoost is recommended. Although more time-consuming, this approach can squeeze out better performance and offers more control over the model.
+
 **Skill Development and Training:**
 * Encourage training for mid-level analysts and other semi-technical staff to increase their familiarity with basic machine learning concepts and tools. Specific focus areas should include understanding model parameters, feature importance, and the basics of model tuning.
 * Consider workshops or training sessions on tools like SHAP for explainability, which will help bridge the gap between model output and business decision-making.
+
 **Plan for Model Explainability:**
 * Regardless of the chosen tool, emphasize the importance of model explainability. Don’t rely solely on the model to produce the best black box results. Strive to create the simplest model with the best inputs for optimal explainability.
