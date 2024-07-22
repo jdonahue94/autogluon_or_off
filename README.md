@@ -17,3 +17,15 @@ The notebook used to complete this research can be found here. Below you will fi
 * XGBoost Default: Achieved an accuracy of 86.37%, which is competitive considering no parameter tuning was applied.
 * XGBoost Hypertuned: Slight improvement with tuned parameters, reaching an accuracy of 86.67%. This reflects the benefits of optimizing model parameters.
 * AutoGluon: Very close to hypertuned XGBoost with an accuracy of 86.54%, demonstrating strong performance with default settings.
+
+### Explainability
+**Model Transparency:**
+* XGBoost Models: These are inherently more transparent than many black-box models because they are based on decision trees. Trees can be visualized, and paths can be traced, which makes them relatively understandable.
+* AutoGluon: Depending on which model or ensemble of models AutoGluon chooses, the transparency can vary. If AutoGluon selects tree-based models, the explainability might be similar to XGBoost. However, if it selects other model types like neural networks, explainability might decrease.
+
+**Tools:**
+* Both XGBoost and tree-based models in AutoGluon can be analyzed using SHAP (SHapley Additive exPlanations), which provides a powerful framework for understanding feature contributions to model outputs.
+* The assumption here is that these tools accurately reflect the contribution of each feature to the decision-making process, which relies on the mathematical soundness of SHAP and its implementation.
+
+
+### Practicality
