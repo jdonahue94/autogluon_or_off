@@ -27,5 +27,11 @@ The notebook used to complete this research can be found here. Below you will fi
 * Both XGBoost and tree-based models in AutoGluon can be analyzed using SHAP (SHapley Additive exPlanations), which provides a powerful framework for understanding feature contributions to model outputs.
 * The assumption here is that these tools accurately reflect the contribution of each feature to the decision-making process, which relies on the mathematical soundness of SHAP and its implementation.
 
-
 ### Practicality
+**Learning Curve:** XGBoost requires a gradual learning curve, with more depth needed for tuning. AutoGluon offers a less steep initial learning curve due to its simplicity and automation, making it ideal for those who want effective results without deep diving into ML mechanics.
+* Hypertuning XGBoost requires more effort and understanding of the model’s parameters and a good grasp of how tuning affects model performance, overfitting, and underfitting.
+* Significant time is needed not only to run the hypertuning process, but also explain the results. Resources (financial and computational) are also needed.
+
+**Application in Daily Tasks:** For a financial analyst at a tech company, using AutoGluon may allow more time to focus on data interpretation and decision-making rather than on model training and optimization.
+
+**Long-Term Skill Development:** Learning to use XGBoost effectively, including its hypertuning, can be more beneficial for career growth in data science due to the widespread use and respect for the versatility of the XGBoost algorithm in the industry.
